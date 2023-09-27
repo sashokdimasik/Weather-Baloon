@@ -1,10 +1,11 @@
-/********************************
- * Author:       Platonov A.A.  *
- * Group:        ПИ-231         *
- * Variant:      14             *
- * Date:         27.09.2023     *
- * Project name: Weather Baloon *
- ********************************/
+/**********************************************
+ * Author:       Platonov A.A.                *
+ * Group:        ПИ-231                       *
+ * Variant:      14                           *
+ * Date:         27.09.2023                   *
+ * Project name: Weather Baloon               *
+ * OnlineGDB: https://onlinegdb.com/pHuRMYmdL *
+ **********************************************/
 
 #include <iostream>
 #include <iomanip>
