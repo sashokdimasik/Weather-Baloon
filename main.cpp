@@ -4,7 +4,7 @@
  * Variant:      14                           *
  * Date:         27.09.2023                   *
  * Project name: Weather Baloon               *
- * OnlineGDB: https://onlinegdb.com/pHuRMYmdL *
+ * OnlineGDB: https://onlinegdb.com/a13a56e0O *
  **********************************************/
 
 #include <iostream>
@@ -22,8 +22,12 @@ int main() {
   
   for (int i = 0; i < 5; i ++) {
     height = 4.87 * sqrt(liftTime[i]);
-    if (height < 11) temperature = 15.2 - 6.55 * height;
-    else temperature = -56.6 + 0.01 * height;
+    if (height < 11) {
+      temperature = 15.2 - 6.55 * height;
+    }
+    else {
+      temperature = -56.6 + 0.01 * height;
+    }
     cout << "Time = " << liftTime[i] << " Height = " << height << " Temperature = " << temperature << '\n';
   }
   
